@@ -1,0 +1,53 @@
+.article img {
+    width: 750px;
+}
+
+.article {
+    width: 55%;
+    margin: 0 auto;
+}
+
+.article span {
+    font-size: 16px;
+    line-height: normal;
+    color: #b5b5b5;
+}
+
+.article h2 {
+    transition: color .1s ease;
+    display: block;
+    line-height: 50px;
+    color: #000;
+    font-size: 40px;
+    text-decoration: none;
+    letter-spacing: -.5px;
+}
+
+.article p,
+h5 {
+    margin-top: 40px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #1c1c1c
+}
+
+.article li {
+    list-style: disc;
+    font-size: 20px;
+    line-height: 2em;
+}
+
+.social__media {
+    display: flex;
+    border-top: 1px solid #f1f1f1;
+    border-bottom: 1px solid #f1f1f1;
+    height: 48px;
+    padding: 9px;
+    gap: 10px;
+}
+
+.social__media img {
+    height: 27px;
+    width: 27px;
+    cursor: pointer;
+}
